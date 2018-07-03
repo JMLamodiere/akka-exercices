@@ -7,7 +7,7 @@
         </encoder>
     </appender>
 
-    <logger name="exercice_0" level="INFO" additivity="false">
+    <logger name="akka_exercices" level="DEBUG" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
