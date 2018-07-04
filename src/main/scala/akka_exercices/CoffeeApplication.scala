@@ -10,6 +10,4 @@ object CoffeeApplication extends App {
   implicit val system: ActorSystem = ActorSystem("CoffeeApp", config)
 
   val coffeeHouse: ActorRef = ???
-
-  DefaultCustomers(coffeeHouse)
 }
